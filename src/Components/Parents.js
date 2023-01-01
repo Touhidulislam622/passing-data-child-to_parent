@@ -2,8 +2,8 @@ import React from 'react';
 
 const Parent = (props) => {
 
-  const data = "i am from child"
-  props.onChildData(data);
+  const data2 = "i am from child components"
+  props.onChildData(data2);
 
   return (
     <div>
@@ -12,5 +12,15 @@ const Parent = (props) => {
     </div>
   )
 }
+
+
+
+
+// const data = "i am from parents data printed by child components ";
+  
+// const  handleChildData = (onChildData) => {
+//   console.log("app :"  + onChildData);
+// };
+
 
 export default Parent 

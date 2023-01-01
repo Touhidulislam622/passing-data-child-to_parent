@@ -1,17 +1,14 @@
+import { React } from 'react';
 import './App.css';
 
-import Parent from './Components/Parents';
+import SignUp from './Components/Form-control/SignUp';
 
 function App() { 
-  const data = "i am from parents data printed by child components ";
-  
-  const  handleChildData = (childData) => {
-    console.log(childData);
-  };
+
   
   return (
     <div className="App">
-        <Parent data = {data} onChildData = {handleChildData} />
+        <SignUp />
     </div>
   );
 }
