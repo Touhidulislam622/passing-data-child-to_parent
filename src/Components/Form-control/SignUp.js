@@ -6,7 +6,7 @@ import { useFormik } from 'formik';
 const SignUp = () => {
     const formik = useFormik({
         initialValues: {
-            name: "",
+            name: "", 
             email: "",
             password: "",
         },

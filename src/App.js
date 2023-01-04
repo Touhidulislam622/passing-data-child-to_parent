@@ -1,14 +1,10 @@
 import { React } from 'react';
-import './App.css';
-
-import SignUp from './Components/Form-control/SignUp';
-
+import Home from './Components/State_lifting/Home';
 function App() { 
-
-  
+ 
   return (
     <div className="App">
-        <SignUp />
+        <Home />
     </div>
   );
 }
